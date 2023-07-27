@@ -1,0 +1,80 @@
+body{
+font-family:arial;
+   
+   
+}
+#container{
+    border: 1px solid red;
+    width: 100px ;
+    height: 10px;
+    margin:auto;
+    padding:20%;
+    background-color: rgba(107, 107, 42, 0.856);
+    
+ text-align: center; }
+
+
+
+/* style colorier le p avec le nom de Mon Div*/
+mondiv{color: rgb(68, 0, 255);
+}
+
+/* style colorier le 1er p*/
+ p:nth-child(2){color: rgb(247, 0, 255);
+}
+
+/* style colorier le 2eme p*/
+p:nth-child(3){color: rgb(17, 0, 255);
+}
+
+/* style colorier le lien avec l'adresse de toto*/
+a[href^="toto"]{color: red;
+}
+
+/* style colorier le lien avec l'adresse de titi*/
+a[href^="titi"]{color: yellowgreen;
+}
+
+
+/* style colorier le 1er li*/
+li:nth-child(1){
+    color: rgb(19, 126, 81);
+}
+
+/* style colorier le 2eme li*/
+li:nth-child(2){
+    color: brown;
+}
+
+/* style colorier le 3eme li*/
+li:nth-child(3){
+    color: rgb(226, 182, 240);
+}
+
+/* style change de couleur passage souris*/
+a:hover{
+    color:yellow;
+    border:3px solid red;
+
+}
+
+/* style sur toutes les tables */
+table {
+    color: blue;
+}
+
+
+/* style sur la 1ere colonne */
+table td:nth-child(2){
+    color: rgb(0, 255, 76);
+}
+
+/* style sur la 2eme colonne */
+table td:nth-child(2){
+    color: rgb(255, 0, 0);
+}
+/* style sur la 3eme colonne */
+table td:nth-child(3){
+    color: rgb(255, 0, 234);
+}
+
